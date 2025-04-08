@@ -47,7 +47,7 @@ export default function AboutSection() {
                   {course.price}
                 </span>
                 <button className="text-green-600 hover:underline text-sm font-medium">
-                  Enroll Now →
+                  Join Course →
                 </button>
               </div>
             </div>

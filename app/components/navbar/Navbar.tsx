@@ -30,7 +30,7 @@ export default function Navbar() {
             href="/"
             className="mr-4 block cursor-pointer py-1.5 text-red-600 font-bold text-2xl"
           >
-            NEXTNEWS
+            Quran Academy
           </Link>
 
           <div className="lg:hidden">
@@ -67,7 +67,7 @@ export default function Navbar() {
                 href="/"
                 className="cursor-pointer text-red-600 font-bold text-xl pt-4 ps-4"
               >
-                NEXTNEWS
+                Zain Quran Academy
               </Link>
               <button
                 onClick={toggleMobileMenu}
