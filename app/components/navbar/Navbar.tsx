@@ -30,7 +30,7 @@ export default function Navbar() {
             href="/"
             className="mr-4 block cursor-pointer py-1.5 text-orange-600 font-bold text-2xl"
           >
-            Quran Academy
+            Zain Quran Academy
           </Link>
 
           <div className="lg:hidden">
