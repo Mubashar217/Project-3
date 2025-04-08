@@ -28,7 +28,7 @@ export default function Contact() {
               <i className="fas fa-phone-alt"></i>
             </div>
             <h3 className="text-lg font-semibold mb-2">Call Us</h3>
-            <p className="text-sm">+1 5589 55488 55</p>
+            <p className="text-sm">+92 3256586985</p>
           </div>
 
           <div className="bg-white shadow-lg rounded-2xl p-6 text-center">
@@ -60,12 +60,11 @@ export default function Contact() {
           />
           <textarea
             placeholder="Message"
-            rows="5"
             className="text-sm border border-gray-300 rounded-md p-2 w-full mb-4 focus:outline-none focus:ring-2 focus:ring-orange-500"
           ></textarea>
           <button
             type="submit"
-            className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm"
+            className="bg-orange-500 cursor-pointer hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm"
           >
             Send Message
           </button>

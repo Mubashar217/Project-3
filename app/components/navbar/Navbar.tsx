@@ -24,11 +24,11 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="block w-full max-w-screen px-4 py-4 mx-auto bg-white bg-opacity-90 shadow lg:px-8 backdrop-blur-lg backdrop-saturate-150 z-[9999] fixed top-0 left-0 right-0">
+      <nav className="block w-full max-w-screen px-4 py-4 mx-auto bg-transparent shadow lg:px-8 backdrop-blur-lg backdrop-saturate-150 z-[9999] fixed top-0 left-0 right-0">
         <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
           <Link
             href="/"
-            className="mr-4 block cursor-pointer py-1.5 text-red-600 font-bold text-2xl"
+            className="mr-4 block cursor-pointer py-1.5 text-orange-600 font-bold text-2xl"
           >
             Quran Academy
           </Link>
@@ -65,7 +65,7 @@ export default function Navbar() {
             <div className="flex flex-row items-center border-b pb-4">
               <Link
                 href="/"
-                className="cursor-pointer text-red-600 font-bold text-xl pt-4 ps-4"
+                className="cursor-pointer text-orange-600 font-bold text-xl pt-4 ps-4"
               >
                 Zain Quran Academy
               </Link>
@@ -100,7 +100,7 @@ export default function Navbar() {
                 </li>
               ))}
               <li className="mt-4">
-                <button className="bg-red-600 text-white px-8 py-2 rounded-md hover:bg-red-500">
+                <button className="bg-orange-600 text-white px-8 py-2 rounded-md hover:bg-red-500">
                   Login
                 </button>
               </li>
@@ -120,7 +120,7 @@ export default function Navbar() {
                 </li>
               ))}
               <li>
-                <button className="bg-red-600 hover:bg-red-500 text-white px-8 py-2 rounded-md text-sm">
+                <button className="bg-orange-600 hover:bg-red-500 text-white px-8 py-2 rounded-md text-sm">
                   Login
                 </button>
               </li>
