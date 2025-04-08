@@ -6,7 +6,7 @@ export default function Header() {
     <section
       className="flex flex-col-reverse lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-12 bg-white text-gray-800"
       style={{
-        backgroundImage: "url('/10997.jpg')",
+        backgroundImage: "url('/1099.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         marginTop: "-60px",
@@ -21,7 +21,7 @@ export default function Header() {
           Connect with the Quran{" "}
           <span className="text-orange-600">Anytime</span> Anywhere
         </h1>
-        <p className="text-white text-base md:text-lg">
+        <p className="text-grey-300 text-base md:text-lg">
           With the Right Teacher and Structure, Learning Quran Becomes Easy and
           Rewarding — Join Our Trusted Online Platform Today.
         </p>
