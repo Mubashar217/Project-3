@@ -7,6 +7,11 @@ import { Button } from "../components/button/Button";
 
 const images = ["/10995.jpg", "/10996.jpg", "/10997.jpg"];
 
+interface User {
+  email: string;
+  password: string;
+}
+
 export default function LoginPage() {
   const [form, setForm] = useState({
     email: "",
@@ -17,16 +22,18 @@ export default function LoginPage() {
   const router = useRouter();
 
   const handleLogin = () => {
-    const users = JSON.parse(localStorage.getItem("users")) || [];
+    if (typeof window !== "undefined") {
+      const users: User[] = JSON.parse(localStorage.getItem("users") || "[]");
 
-    const isValid = users.some(
-      (cred) => cred.email === form.email && cred.password === form.password
-    );
+      const isValid = users.some(
+        (cred) => cred.email === form.email && cred.password === form.password
+      );
 
-    if (isValid) {
-      router.push("/student");
-    } else {
-      alert("Invalid email or password");
+      if (isValid) {
+        router.push("/student");
+      } else {
+        alert("Invalid email or password");
+      }
     }
   };
 

@@ -18,18 +18,28 @@ export default function SignupPage() {
   const [currentImage, setCurrentImage] = useState(2);
 
   const handleSignup = () => {
-    // Saving the user credentials in localStorage (this can later be moved to a backend)
-    if (form.agree) {
-      const newUser = {
-        email: form.email,
-        password: form.password,
-      };
-      let users = JSON.parse(localStorage.getItem("users")) || [];
-      users.push(newUser);
-      localStorage.setItem("users", JSON.stringify(users));
-      alert("Account created successfully. You can now log in.");
-    } else {
-      alert("Please agree to the terms and conditions.");
+    if (typeof window !== "undefined") {
+      // Ensure the terms & conditions are agreed upon
+      if (form.agree) {
+        if (form.email && form.password) {
+          const newUser = {
+            firstName: form.firstName,
+            lastName: form.lastName,
+            email: form.email,
+            password: form.password,
+          };
+
+          let users = JSON.parse(localStorage.getItem("users") || "[]");
+          users.push(newUser);
+          localStorage.setItem("users", JSON.stringify(users));
+
+          alert("Account created successfully. You can now log in.");
+        } else {
+          alert("Please fill out all the required fields.");
+        }
+      } else {
+        alert("Please agree to the terms and conditions.");
+      }
     }
   };
 
@@ -47,7 +57,7 @@ export default function SignupPage() {
             <div className="flex justify-between items-center">
               <h1 className="text-white text-2xl font-bold">Online Quran Academy</h1>
               <button className="text-white text-sm bg-white/20 px-3 py-1 rounded-full">
-                <a href="/"> Back to website →</a>
+                <a href="/">Back to website →</a>
               </button>
             </div>
             <div className="text-white text-xl font-light mb-10">
