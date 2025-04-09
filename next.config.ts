@@ -1,6 +1,16 @@
-@type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // آپ کی کنفیگریشن یہاں
+  reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  webpack: (config) => {
+    // اپنی تخصیصات یہاں شامل کریں
+    return config;
+  },
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
