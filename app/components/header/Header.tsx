@@ -35,7 +35,7 @@ export default function Header() {
 
       <div className="lg:w-1/2 w-full flex justify-center mb-10 lg:mb-0">
         <Image
-          src="/main1.png"
+          src="/3.png"
           alt="Smiling woman"
           width={500}
           height={500}

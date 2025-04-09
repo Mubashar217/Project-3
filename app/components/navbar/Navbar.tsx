@@ -101,7 +101,7 @@ export default function Navbar() {
               ))}
               <li className="mt-4">
                 <button className="bg-orange-600 text-white px-8 py-2 rounded-md hover:bg-red-500">
-                  Login
+                  <a href="/login">Login</a>
                 </button>
               </li>
             </ul>
@@ -121,7 +121,7 @@ export default function Navbar() {
               ))}
               <li>
                 <button className="bg-orange-600 hover:bg-red-500 text-white px-8 py-2 rounded-md text-sm">
-                  Login
+                <a href="/login">Login</a>
                 </button>
               </li>
             </ul>
