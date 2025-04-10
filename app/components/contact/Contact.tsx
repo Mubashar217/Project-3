@@ -2,11 +2,9 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section className="py-12 px-4 sm:px-6 md:px-12 lg:px-24 bg-white">
+    <section id="contact" className="py-12 px-4 sm:px-6 md:px-12 lg:px-24 bg-white">
       <div className="text-center mb-12">
-        <p className="uppercase tracking-widest text-sm text-gray-500">
-          Contact
-        </p>
+        <p className="uppercase tracking-widest text-sm text-gray-500">Contact</p>
         <h2 className="text-xl md:text-2xl font-bold text-gray-800 mt-2">
           Necessitatibus Eius Consequatur
         </h2>

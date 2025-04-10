@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { Button } from "../components/button/Button";
 
-const images = ["/desert.jpg", "/10996.jpg", "/10997.jpg"];
+const images = ["/land1.jpg", "/land2.jpg", "/land2.jpg"];
 
 export default function SignupPage() {
   const [form, setForm] = useState({

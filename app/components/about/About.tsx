@@ -29,7 +29,7 @@ const courses = [
 
 export default function AboutSection() {
   return (
-    <section className="bg-gradient-to-br from-green-50 to-white py-20 px-6 md:px-12 lg:px-20">
+    <section id="courses" className="bg-gradient-to-br from-green-50 to-white py-20 px-6 md:px-12 lg:px-20">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-4">
           Discover Our Online Quran Courses

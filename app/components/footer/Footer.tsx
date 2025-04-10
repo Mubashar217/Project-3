@@ -15,19 +15,19 @@ const Footer = () => {
 
         <div className="mt-4">
           <a
-            href="/about"
+            href="#about"
             className="text-gray-400 hover:text-white mx-4 text-sm"
           >
             About Us
           </a>
           <a
-            href="/contact"
+            href="#contact"
             className="text-gray-400 hover:text-white mx-4 text-sm"
           >
             Contact
           </a>
           <a
-            href="/privacy"
+            href="/"
             className="text-gray-400 hover:text-white mx-4 text-sm"
           >
             Privacy Policy
@@ -70,6 +70,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-4">
+          
           <a
             href="mailto:your-email@example.com"
             className="text-gray-400 hover:text-white flex items-center justify-center text-sm"

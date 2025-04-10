@@ -30,7 +30,7 @@ export default function OurClients() {
   };
 
   return (
-    <div className="py-12 bg-white">
+    <div id="contact" className="py-12 bg-white">
       <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-800">
         Our Students<span className="text-teal-600">!</span>
       </h2>

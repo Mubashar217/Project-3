@@ -16,10 +16,10 @@ export default function Navbar() {
 
   const navItems: NavItem[] = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/" },
-    { name: "Our Courses", href: "/" },
-    { name: "Our Students", href: "/" },
-    { name: "Pricing", href: "/" },
+    { name: "About", href: "#about" },
+    { name: "Our Courses", href: "#courses" },
+    { name: "Our Students", href: "#client" },
+    { name: "Contact", href: "#contact" },
   ];
 
   return (

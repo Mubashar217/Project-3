@@ -57,7 +57,7 @@ export default function Dashboard() {
           </button>
           <div className="text-xl">Zain Online Quran</div>
           <button className="text-sm bg-blue-600 px-4 py-2 rounded-md">
-           <a href="/"> Log Out</a>
+            <a href="/"> Log Out</a>
           </button>
         </header>
 
@@ -81,7 +81,27 @@ export default function Dashboard() {
           <div className="mt-8">
             <h3 className="text-xl font-semibold">Analytics Overview</h3>
             <div className="mt-4 bg-white p-6 rounded-lg shadow-md">
-              <p className="text-center">Zm Tech Offical</p>
+              <p className="text-center">Zm Tech Official</p>
+            </div>
+          </div>
+
+          {/* Buttons Section */}
+          <div className="mt-8 space-y-4">
+            <div className="flex justify-center">
+              <a
+                href="/quran" 
+                className="bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 text-white py-3 px-8 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 hover:from-blue-600 hover:via-indigo-600 hover:to-purple-600 shadow-lg transform active:scale-95 w-full sm:w-auto"
+              >
+                Class Start
+              </a>
+            </div>
+            <div className="flex justify-center">
+              <a
+                href="/" 
+                className="bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 text-white py-3 px-8 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 hover:from-red-600 hover:via-pink-600 hover:to-purple-600 shadow-lg transform active:scale-95 w-full sm:w-auto"
+              >
+                Log Out
+              </a>
             </div>
           </div>
         </main>

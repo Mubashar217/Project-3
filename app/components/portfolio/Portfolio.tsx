@@ -23,7 +23,7 @@ const Portfolio = () => {
       : portfolioItems.filter((item) => item.category === activeCategory);
 
   return (
-    <div className="px-4 py-10 max-w-7xl mx-auto text-center">
+    <div id="about" className="px-4 py-10 max-w-7xl mx-auto text-center">
       <h2 className="text-sm tracking-widest text-gray-400 uppercase mb-2">
         Portfolio
       </h2>

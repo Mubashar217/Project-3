@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "../components/button/Button";
 
-const images = ["/10995.jpg", "/10996.jpg", "/10997.jpg"];
+const images = ["/land2.jpg", "/land1.jpg", "/land2.jpg"];
 
 interface User {
   email: string;
